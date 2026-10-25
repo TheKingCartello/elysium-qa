@@ -1,0 +1,7 @@
+# core (enough for chain + web + contract probes)
+requests>=2.31
+PyYAML>=6.0
+
+# optional: real-browser smoke tests (--browser) and tx execution (--execute)
+# playwright>=1.44      # then: playwright install chromium
+# eth-account>=0.11

@@ -1,0 +1,1150 @@
+{
+  "network": {
+    "name": "Elysium Testnet",
+    "chain_id": 99801,
+    "rpc": "https://testnet-rpc.elysium.kinetiq.xyz",
+    "explorer": "https://elysium.kinetiq.xyz/testnet-explorer",
+    "faucet": "https://elysium.kinetiq.xyz/testnet-faucet",
+    "parent_chain": "HyperEVM testnet (998)",
+    "gas_token": "HYPE"
+  },
+  "projects": [
+    {
+      "name": "Ascend",
+      "handle": "@AscendLaunch",
+      "category": "Launchpad",
+      "url": "https://ascendlaunch.xyz",
+      "url_confidence": "confirmed",
+      "priority": "P0",
+      "note": "HTTP 401 to anonymous visitors; flagged PRIVATE ACCESS",
+      "contracts": []
+    },
+    {
+      "name": "Oxley",
+      "handle": "@oxleydotfun",
+      "category": "Launchpad",
+      "url": "https://oxley.fun",
+      "url_confidence": "confirmed",
+      "priority": "P1",
+      "contracts": []
+    },
+    {
+      "name": "Signal",
+      "handle": "@SignalFam",
+      "category": "Launchpad",
+      "url": "",
+      "url_confidence": "none",
+      "priority": "P1",
+      "contracts": []
+    },
+    {
+      "name": "CorePad",
+      "handle": "@CorePad_hl",
+      "category": "Launchpad",
+      "url": "https://corepad.xyz",
+      "url_confidence": "likely",
+      "priority": "P1",
+      "contracts": []
+    },
+    {
+      "name": "PerpMe",
+      "handle": "@perpmefun",
+      "category": "Launchpad",
+      "url": "",
+      "url_confidence": "none",
+      "priority": "P2",
+      "contracts": []
+    },
+    {
+      "name": "Neurii",
+      "handle": "@Neuriiio",
+      "category": "Launchpad",
+      "url": "",
+      "url_confidence": "none",
+      "priority": "P2",
+      "contracts": []
+    },
+    {
+      "name": "Chainzy",
+      "handle": "@ChainzyLabs",
+      "category": "Launchpad",
+      "url": "https://chainzy.xyz",
+      "url_confidence": "likely",
+      "priority": "P2",
+      "contracts": []
+    },
+    {
+      "name": "Montra",
+      "handle": "@MontraXYZ",
+      "category": "Launchpad",
+      "url": "",
+      "url_confidence": "none",
+      "priority": "P1",
+      "contracts": []
+    },
+    {
+      "name": "Kalos",
+      "handle": "@kalosfun",
+      "category": "NFT/DEX",
+      "url": "https://kalos.fun",
+      "url_confidence": "confirmed",
+      "priority": "P2",
+      "contracts": []
+    },
+    {
+      "name": "Atlas",
+      "handle": "@AtlasHL",
+      "category": "NFT",
+      "url": "https://atlashl.xyz",
+      "url_confidence": "confirmed",
+      "priority": "P2",
+      "contracts": []
+    },
+    {
+      "name": "Dexda Costa",
+      "handle": "@dexdacosta",
+      "category": "DEX",
+      "url": "",
+      "url_confidence": "none",
+      "priority": "P1",
+      "contracts": []
+    },
+    {
+      "name": "HyperFlow",
+      "handle": "@HyperFlow_fun",
+      "category": "DEX",
+      "url": "https://hyperflow.fun",
+      "url_confidence": "confirmed",
+      "priority": "P2",
+      "contracts": []
+    },
+    {
+      "name": "Nest",
+      "handle": "@NestExchange",
+      "category": "DEX/ve(3,3)",
+      "url": "",
+      "url_confidence": "none",
+      "priority": "P0",
+      "note": "reported live from first mainnet block",
+      "contracts": []
+    },
+    {
+      "name": "Hybra Finance",
+      "handle": "@HybraFinance",
+      "category": "Liquidity",
+      "url": "https://hybra.finance",
+      "url_confidence": "confirmed",
+      "priority": "P1",
+      "contracts": []
+    },
+    {
+      "name": "Pindar",
+      "handle": "@Pindar_finance",
+      "category": "Derivatives",
+      "url": "https://pindar.finance",
+      "url_confidence": "confirmed",
+      "priority": "P1",
+      "contracts": []
+    },
+    {
+      "name": "Temporal Finance",
+      "handle": "@TemporalFinance",
+      "category": "Options",
+      "url": "",
+      "url_confidence": "none",
+      "priority": "P1",
+      "contracts": []
+    },
+    {
+      "name": "HyperFlip",
+      "handle": "@hyperflip_xyz",
+      "category": "Perps",
+      "url": "https://hyperflip.xyz",
+      "url_confidence": "confirmed",
+      "priority": "P2",
+      "note": "HIP-4 combo markets",
+      "contracts": []
+    },
+    {
+      "name": "Speculate",
+      "handle": "@speculatezyx",
+      "category": "Prediction",
+      "url": "",
+      "url_confidence": "none",
+      "priority": "P0",
+      "note": "committed to mainnet day one",
+      "contracts": []
+    },
+    {
+      "name": "Eloscape",
+      "handle": "@eloscapeHQ",
+      "category": "GameFi",
+      "url": "",
+      "url_confidence": "none",
+      "priority": "P2",
+      "contracts": []
+    },
+    {
+      "name": "Elysa",
+      "handle": "@playelysa",
+      "category": "Games",
+      "url": "",
+      "url_confidence": "none",
+      "priority": "P3",
+      "contracts": []
+    },
+    {
+      "name": "FrogFlip",
+      "handle": "@FrogFlip",
+      "category": "Games",
+      "url": "https://frogflip.xyz",
+      "url_confidence": "confirmed",
+      "priority": "P3",
+      "contracts": []
+    },
+    {
+      "name": "Elypact",
+      "handle": "@Elypact",
+      "category": "DeFi",
+      "url": "",
+      "url_confidence": "none",
+      "priority": "P2",
+      "contracts": []
+    },
+    {
+      "name": "Aegis Hedge",
+      "handle": "@aegis_hedge",
+      "category": "DeFi",
+      "url": "",
+      "url_confidence": "none",
+      "priority": "P1",
+      "contracts": []
+    },
+    {
+      "name": "Pantheon Index",
+      "handle": "@Pantheonindex",
+      "category": "Index",
+      "url": "",
+      "url_confidence": "none",
+      "priority": "P1",
+      "contracts": []
+    },
+    {
+      "name": "Liquid Terminal",
+      "handle": "@LiquidTerminal",
+      "category": "Tools",
+      "url": "https://liquidterminal.xyz",
+      "url_confidence": "confirmed",
+      "priority": "P1",
+      "contracts": []
+    },
+    {
+      "name": "Elysium Names",
+      "handle": "@ElysiumNames",
+      "category": "Tools",
+      "url": "",
+      "url_confidence": "none",
+      "priority": "P2",
+      "contracts": []
+    },
+    {
+      "name": "StockFlow",
+      "handle": "@StockFlow",
+      "category": "RWA",
+      "url": "",
+      "url_confidence": "none",
+      "priority": "P1",
+      "contracts": []
+    },
+    {
+      "name": "Elyra",
+      "handle": "@Elyra",
+      "category": "Lending",
+      "url": "",
+      "url_confidence": "none",
+      "priority": "P1",
+      "contracts": []
+    }
+  ],
+  "web": [
+    {
+      "name": "Ascend",
+      "url": "https://ascendlaunch.xyz",
+      "reachable": true,
+      "status": 401,
+      "final_url": "https://ascendlaunch.xyz/",
+      "bytes": 14174,
+      "title": "Ascend to Elysium",
+      "latency_ms": 135.9,
+      "verdict": "gated",
+      "signals": [
+        "HTTP 401 (access restricted / bot protection)"
+      ],
+      "error": null,
+      "browser": null,
+      "url_confidence": "confirmed",
+      "score": 20.0
+    },
+    {
+      "name": "Oxley",
+      "url": "https://oxley.fun",
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://oxley.fun/",
+      "bytes": 29057,
+      "title": "Deal Markets on Elysium",
+      "latency_ms": 130.5,
+      "verdict": "live-app",
+      "signals": [
+        "wallet-connect surface: launch app",
+        "mentions testnet"
+      ],
+      "error": null,
+      "browser": null,
+      "url_confidence": "confirmed",
+      "score": 100.0
+    },
+    {
+      "name": "Signal",
+      "url": "",
+      "reachable": false,
+      "status": null,
+      "final_url": null,
+      "bytes": 0,
+      "title": "",
+      "latency_ms": 0.0,
+      "verdict": "url unknown",
+      "signals": [],
+      "error": "no public url configured",
+      "browser": null,
+      "url_confidence": "none",
+      "score": null
+    },
+    {
+      "name": "CorePad",
+      "url": "https://corepad.xyz",
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://corepad.xyz/",
+      "bytes": 3175,
+      "title": "Coming Soon",
+      "latency_ms": 494.6,
+      "verdict": "coming-soon",
+      "signals": [
+        "marker: 'coming soon'"
+      ],
+      "error": null,
+      "browser": null,
+      "url_confidence": "likely",
+      "score": 25.0
+    },
+    {
+      "name": "PerpMe",
+      "url": "",
+      "reachable": false,
+      "status": null,
+      "final_url": null,
+      "bytes": 0,
+      "title": "",
+      "latency_ms": 0.0,
+      "verdict": "url unknown",
+      "signals": [],
+      "error": "no public url configured",
+      "browser": null,
+      "url_confidence": "none",
+      "score": null
+    },
+    {
+      "name": "Neurii",
+      "url": "",
+      "reachable": false,
+      "status": null,
+      "final_url": null,
+      "bytes": 0,
+      "title": "",
+      "latency_ms": 0.0,
+      "verdict": "url unknown",
+      "signals": [],
+      "error": "no public url configured",
+      "browser": null,
+      "url_confidence": "none",
+      "score": null
+    },
+    {
+      "name": "Chainzy",
+      "url": "https://chainzy.xyz",
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://chainzy.xyz/",
+      "bytes": 84903,
+      "title": "chainzy.xyz",
+      "latency_ms": 119.9,
+      "verdict": "coming-soon",
+      "signals": [
+        "marker: 'launching soon'",
+        "mentions testnet"
+      ],
+      "error": null,
+      "browser": null,
+      "url_confidence": "likely",
+      "score": 25.0
+    },
+    {
+      "name": "Montra",
+      "url": "",
+      "reachable": false,
+      "status": null,
+      "final_url": null,
+      "bytes": 0,
+      "title": "",
+      "latency_ms": 0.0,
+      "verdict": "url unknown",
+      "signals": [],
+      "error": "no public url configured",
+      "browser": null,
+      "url_confidence": "none",
+      "score": null
+    },
+    {
+      "name": "Kalos",
+      "url": "https://kalos.fun",
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.kalos.fun/",
+      "bytes": 113711,
+      "title": "Kalos \u2014 Marketplace",
+      "latency_ms": 110.5,
+      "verdict": "coming-soon",
+      "signals": [
+        "marker: 'coming soon'",
+        "mentions testnet"
+      ],
+      "error": null,
+      "browser": null,
+      "url_confidence": "confirmed",
+      "score": 25.0
+    },
+    {
+      "name": "Atlas",
+      "url": "https://atlashl.xyz",
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://atlashl.xyz/",
+      "bytes": 99216,
+      "title": "Atlas NFT Marketplace",
+      "latency_ms": 279.2,
+      "verdict": "live-app",
+      "signals": [
+        "wallet-connect surface: rainbowkit",
+        "mentions testnet"
+      ],
+      "error": null,
+      "browser": null,
+      "url_confidence": "confirmed",
+      "score": 100.0
+    },
+    {
+      "name": "Dexda Costa",
+      "url": "",
+      "reachable": false,
+      "status": null,
+      "final_url": null,
+      "bytes": 0,
+      "title": "",
+      "latency_ms": 0.0,
+      "verdict": "url unknown",
+      "signals": [],
+      "error": "no public url configured",
+      "browser": null,
+      "url_confidence": "none",
+      "score": null
+    },
+    {
+      "name": "HyperFlow",
+      "url": "https://hyperflow.fun",
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://hyperflow.fun/",
+      "bytes": 7947,
+      "title": "HyperFlow",
+      "latency_ms": 103.0,
+      "verdict": "live-app",
+      "signals": [
+        "wallet-connect surface: connect"
+      ],
+      "error": null,
+      "browser": null,
+      "url_confidence": "confirmed",
+      "score": 100.0
+    },
+    {
+      "name": "Nest",
+      "url": "",
+      "reachable": false,
+      "status": null,
+      "final_url": null,
+      "bytes": 0,
+      "title": "",
+      "latency_ms": 0.0,
+      "verdict": "url unknown",
+      "signals": [],
+      "error": "no public url configured",
+      "browser": null,
+      "url_confidence": "none",
+      "score": null
+    },
+    {
+      "name": "Hybra Finance",
+      "url": "https://hybra.finance",
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.hybra.finance/",
+      "bytes": 915,
+      "title": "Hybra Finance",
+      "latency_ms": 103.4,
+      "verdict": "landing-only",
+      "signals": [
+        "thin response (915B), no app surface"
+      ],
+      "error": null,
+      "browser": null,
+      "url_confidence": "confirmed",
+      "score": 45.0
+    },
+    {
+      "name": "Pindar",
+      "url": "https://pindar.finance",
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://pindar.finance/",
+      "bytes": 54103,
+      "title": "Pindar: fixed and floating funding rates on Hyperliquid",
+      "latency_ms": 91.5,
+      "verdict": "landing-only",
+      "signals": [
+        "no wallet-connect surface found",
+        "mentions testnet"
+      ],
+      "error": null,
+      "browser": null,
+      "url_confidence": "confirmed",
+      "score": 45.0
+    },
+    {
+      "name": "Temporal Finance",
+      "url": "",
+      "reachable": false,
+      "status": null,
+      "final_url": null,
+      "bytes": 0,
+      "title": "",
+      "latency_ms": 0.0,
+      "verdict": "url unknown",
+      "signals": [],
+      "error": "no public url configured",
+      "browser": null,
+      "url_confidence": "none",
+      "score": null
+    },
+    {
+      "name": "HyperFlip",
+      "url": "https://hyperflip.xyz",
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://hyperflip.xyz/",
+      "bytes": 150728,
+      "title": "Hyperflip | Stack HIP-4 Markets. Multiply the Payout.",
+      "latency_ms": 226.7,
+      "verdict": "live-app",
+      "signals": [
+        "wallet-connect surface: launch app",
+        "mentions testnet"
+      ],
+      "error": null,
+      "browser": null,
+      "url_confidence": "confirmed",
+      "score": 100.0
+    },
+    {
+      "name": "Speculate",
+      "url": "",
+      "reachable": false,
+      "status": null,
+      "final_url": null,
+      "bytes": 0,
+      "title": "",
+      "latency_ms": 0.0,
+      "verdict": "url unknown",
+      "signals": [],
+      "error": "no public url configured",
+      "browser": null,
+      "url_confidence": "none",
+      "score": null
+    },
+    {
+      "name": "Eloscape",
+      "url": "",
+      "reachable": false,
+      "status": null,
+      "final_url": null,
+      "bytes": 0,
+      "title": "",
+      "latency_ms": 0.0,
+      "verdict": "url unknown",
+      "signals": [],
+      "error": "no public url configured",
+      "browser": null,
+      "url_confidence": "none",
+      "score": null
+    },
+    {
+      "name": "Elysa",
+      "url": "",
+      "reachable": false,
+      "status": null,
+      "final_url": null,
+      "bytes": 0,
+      "title": "",
+      "latency_ms": 0.0,
+      "verdict": "url unknown",
+      "signals": [],
+      "error": "no public url configured",
+      "browser": null,
+      "url_confidence": "none",
+      "score": null
+    },
+    {
+      "name": "FrogFlip",
+      "url": "https://frogflip.xyz",
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://www.frogflip.xyz/",
+      "bytes": 1179,
+      "title": "Frog Flip \u00b7 Elysium Testnet",
+      "latency_ms": 114.3,
+      "verdict": "live-app",
+      "signals": [
+        "wallet-connect surface: connect",
+        "mentions testnet"
+      ],
+      "error": null,
+      "browser": null,
+      "url_confidence": "confirmed",
+      "score": 100.0
+    },
+    {
+      "name": "Elypact",
+      "url": "",
+      "reachable": false,
+      "status": null,
+      "final_url": null,
+      "bytes": 0,
+      "title": "",
+      "latency_ms": 0.0,
+      "verdict": "url unknown",
+      "signals": [],
+      "error": "no public url configured",
+      "browser": null,
+      "url_confidence": "none",
+      "score": null
+    },
+    {
+      "name": "Aegis Hedge",
+      "url": "",
+      "reachable": false,
+      "status": null,
+      "final_url": null,
+      "bytes": 0,
+      "title": "",
+      "latency_ms": 0.0,
+      "verdict": "url unknown",
+      "signals": [],
+      "error": "no public url configured",
+      "browser": null,
+      "url_confidence": "none",
+      "score": null
+    },
+    {
+      "name": "Pantheon Index",
+      "url": "",
+      "reachable": false,
+      "status": null,
+      "final_url": null,
+      "bytes": 0,
+      "title": "",
+      "latency_ms": 0.0,
+      "verdict": "url unknown",
+      "signals": [],
+      "error": "no public url configured",
+      "browser": null,
+      "url_confidence": "none",
+      "score": null
+    },
+    {
+      "name": "Liquid Terminal",
+      "url": "https://liquidterminal.xyz",
+      "reachable": true,
+      "status": 200,
+      "final_url": "https://liquidterminal.xyz/",
+      "bytes": 91355,
+      "title": "Liquid Terminal - Hyperliquid Analytics, Explorer &amp; Wiki",
+      "latency_ms": 104.6,
+      "verdict": "landing-only",
+      "signals": [
+        "no wallet-connect surface found"
+      ],
+      "error": null,
+      "browser": null,
+      "url_confidence": "confirmed",
+      "score": 45.0
+    },
+    {
+      "name": "Elysium Names",
+      "url": "",
+      "reachable": false,
+      "status": null,
+      "final_url": null,
+      "bytes": 0,
+      "title": "",
+      "latency_ms": 0.0,
+      "verdict": "url unknown",
+      "signals": [],
+      "error": "no public url configured",
+      "browser": null,
+      "url_confidence": "none",
+      "score": null
+    },
+    {
+      "name": "StockFlow",
+      "url": "",
+      "reachable": false,
+      "status": null,
+      "final_url": null,
+      "bytes": 0,
+      "title": "",
+      "latency_ms": 0.0,
+      "verdict": "url unknown",
+      "signals": [],
+      "error": "no public url configured",
+      "browser": null,
+      "url_confidence": "none",
+      "score": null
+    },
+    {
+      "name": "Elyra",
+      "url": "",
+      "reachable": false,
+      "status": null,
+      "final_url": null,
+      "bytes": 0,
+      "title": "",
+      "latency_ms": 0.0,
+      "verdict": "url unknown",
+      "signals": [],
+      "error": "no public url configured",
+      "browser": null,
+      "url_confidence": "none",
+      "score": null
+    }
+  ],
+  "contracts": [
+    {
+      "project": "_infra",
+      "address": "0xCD57F65c2B0e5881CFC2E609F7CD53b746E1F234",
+      "label": "WHYPE (bridged gas token)",
+      "deployed": true,
+      "code_bytes": 2202,
+      "is_proxy": true,
+      "implementation": "0x88b0e068f77cb73157dc27c78c80cbcfdb21e24f",
+      "token": {
+        "name": "WHYPE",
+        "symbol": "WHYPE",
+        "decimals": 18,
+        "totalSupply": 22476564396566062549701
+      },
+      "paused": null,
+      "owner": null,
+      "verdict": "token",
+      "score": 80.0
+    },
+    {
+      "project": "_infra",
+      "address": "0xcA11bde05977b3631167028862bE2a173976CA11",
+      "label": "Multicall3",
+      "deployed": true,
+      "code_bytes": 3808,
+      "is_proxy": false,
+      "implementation": null,
+      "token": {},
+      "paused": null,
+      "owner": null,
+      "verdict": "contract (no standard view interface)",
+      "score": 65.0
+    }
+  ],
+  "scenarios": [
+    {
+      "project": "_infra",
+      "name": "WHYPE interface smoke test (view calls only)",
+      "mode": "dry-run",
+      "score": 100.0,
+      "total_cost_hype": 0.0,
+      "error": null,
+      "steps": [
+        {
+          "name": "balanceOf(qa wallet)",
+          "to": "0xCD57F65c2B0e5881CFC2E609F7CD53b746E1F234",
+          "status": "pass",
+          "detail": "dry-run: gas 31353, cost ~0.000003 HYPE, value 0.000000 HYPE",
+          "tx_hash": null,
+          "gas_used": null,
+          "cost_hype": 3.1353e-06,
+          "latency_ms": null,
+          "simulated": "ok"
+        },
+        {
+          "name": "totalSupply",
+          "to": "0xCD57F65c2B0e5881CFC2E609F7CD53b746E1F234",
+          "status": "pass",
+          "detail": "dry-run: gas 30908, cost ~0.000003 HYPE, value 0.000000 HYPE",
+          "tx_hash": null,
+          "gas_used": null,
+          "cost_hype": 3.09110908e-06,
+          "latency_ms": null,
+          "simulated": "ok"
+        },
+        {
+          "name": "decimals",
+          "to": "0xCD57F65c2B0e5881CFC2E609F7CD53b746E1F234",
+          "status": "pass",
+          "detail": "dry-run: gas 30871, cost ~0.000003 HYPE, value 0.000000 HYPE",
+          "tx_hash": null,
+          "gas_used": null,
+          "cost_hype": 3.08987839e-06,
+          "latency_ms": null,
+          "simulated": "ok"
+        }
+      ]
+    }
+  ],
+  "chain": {
+    "endpoint": "https://testnet-rpc.elysium.kinetiq.xyz",
+    "ok": true,
+    "fatal": null,
+    "score": 98.1,
+    "checks": [
+      {
+        "name": "rpc reachable",
+        "status": "pass",
+        "detail": "head=15621729",
+        "weight": 10
+      },
+      {
+        "name": "chain id",
+        "status": "pass",
+        "detail": "99801",
+        "weight": 15
+      },
+      {
+        "name": "throughput",
+        "status": "pass",
+        "detail": "6.4 blocks/s",
+        "weight": 10
+      },
+      {
+        "name": "gas price readable",
+        "status": "pass",
+        "detail": "0.0000 gwei",
+        "weight": 5
+      },
+      {
+        "name": "usage is real (infra overhead subtracted)",
+        "status": "info",
+        "detail": "110/170 txs are user txs; 35.3% is sequencer/batch overhead",
+        "weight": 0
+      },
+      {
+        "name": "rpc capability: eth_getLogs",
+        "status": "pass",
+        "detail": "[{'address': '0x5f118bf1913c7774bf20f220b44ef595da4bb035', 'topics': ['0xddf252ad1be2c89b6...",
+        "weight": 5
+      },
+      {
+        "name": "rpc capability: eth_feeHistory",
+        "status": "pass",
+        "detail": "{'oldestBlock': '0xee5e5e', 'reward': [['0x0', '0x0'], ['0x0', '0x0'], ['0x0', '0x0'], ['0...",
+        "weight": 5
+      },
+      {
+        "name": "rpc capability: eth_maxPriorityFeePerGas",
+        "status": "pass",
+        "detail": "'0x0'",
+        "weight": 5
+      },
+      {
+        "name": "rpc capability: eth_estimateGas",
+        "status": "pass",
+        "detail": "'0x5f1a'",
+        "weight": 5
+      },
+      {
+        "name": "rpc capability: web3_clientVersion",
+        "status": "pass",
+        "detail": "'nitro/vlocal+unknown-unknown/linux-amd64/go1.25.12'",
+        "weight": 5
+      },
+      {
+        "name": "rpc capability: net_version",
+        "status": "pass",
+        "detail": "'99801'",
+        "weight": 5
+      },
+      {
+        "name": "rpc capability: eth_syncing",
+        "status": "pass",
+        "detail": "False",
+        "weight": 5
+      },
+      {
+        "name": "rpc capability: debug_traceTransaction (optional)",
+        "status": "warn",
+        "detail": "None",
+        "weight": 3
+      },
+      {
+        "name": "rpc capability: eth_getProof (optional)",
+        "status": "pass",
+        "detail": "{'address': '0x0000000000000000000000000000000000000001', 'accountProof': ['0xf90211a09776...",
+        "weight": 3
+      }
+    ],
+    "metrics": {
+      "chain_id": 99801,
+      "blocks_per_sec_measured": 6.39,
+      "blocks_sampled": 52,
+      "gas_price_gwei": 0.0,
+      "sample_span_s": 8,
+      "block_time_s": 0.1356,
+      "timestamp_resolution": "1s (sub-second block time not observable via timestamps)",
+      "auto_detected_system_sender": "0x00000000000000000000000000000000000a4b05",
+      "activity_series": {
+        "user": [
+          1,
+          2,
+          1,
+          1,
+          1,
+          4,
+          1,
+          1,
+          3,
+          1,
+          1,
+          3,
+          1,
+          2,
+          1,
+          2,
+          1,
+          4,
+          2,
+          1,
+          2,
+          3,
+          3,
+          2,
+          5,
+          1,
+          3,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          3,
+          1,
+          1,
+          3,
+          2,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          2,
+          3,
+          3,
+          2,
+          1,
+          1,
+          3
+        ],
+        "system": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "txs_sampled": 170,
+      "txs_user": 110,
+      "system_overhead_pct": 35.3,
+      "unique_senders_user": 79,
+      "unique_targets_user": 60,
+      "contract_creations_user": 13,
+      "txs_per_s_user": 13.75,
+      "top_user_targets": [
+        {
+          "address": "create",
+          "txs": 13
+        },
+        {
+          "address": "0x000000000000000000000000000000000000006e",
+          "txs": 12
+        },
+        {
+          "address": "0x14ae215bf9d092a954c0dcdc2e1d3c5f92c90056",
+          "txs": 9
+        },
+        {
+          "address": "0xb94a38a4ac46970559e89e566f2486a3fc56be5a",
+          "txs": 7
+        },
+        {
+          "address": "0x752f6816bc514e1eeff852b2eadcd96f6c0f9f3f",
+          "txs": 4
+        },
+        {
+          "address": "0x89659883a9d980925733b0a698f117aab65ac718",
+          "txs": 3
+        },
+        {
+          "address": "0x7255150a0340852fe4b4b5657c5ace6c09a4f959",
+          "txs": 3
+        }
+      ],
+      "rpc": {
+        "endpoint": "https://testnet-rpc.elysium.kinetiq.xyz",
+        "calls": 81,
+        "errors": 8,
+        "error_rate": 0.0988,
+        "latency_p50_ms": 153.7,
+        "latency_p95_ms": 471.6
+      }
+    },
+    "capabilities": {
+      "eth_getLogs": {
+        "available": true,
+        "required": true,
+        "sample": "[{'address': '0x5f118bf1913c7774bf20f220b44ef595da4bb035', 'topics': ['0xddf252ad1be2c89b6..."
+      },
+      "eth_feeHistory": {
+        "available": true,
+        "required": true,
+        "sample": "{'oldestBlock': '0xee5e5e', 'reward': [['0x0', '0x0'], ['0x0', '0x0'], ['0x0', '0x0'], ['0..."
+      },
+      "eth_maxPriorityFeePerGas": {
+        "available": true,
+        "required": true,
+        "sample": "'0x0'"
+      },
+      "eth_estimateGas": {
+        "available": true,
+        "required": true,
+        "sample": "'0x5f1a'"
+      },
+      "web3_clientVersion": {
+        "available": true,
+        "required": true,
+        "sample": "'nitro/vlocal+unknown-unknown/linux-amd64/go1.25.12'"
+      },
+      "net_version": {
+        "available": true,
+        "required": true,
+        "sample": "'99801'"
+      },
+      "eth_syncing": {
+        "available": true,
+        "required": true,
+        "sample": "False"
+      },
+      "debug_traceTransaction": {
+        "available": false,
+        "required": false,
+        "sample": "None"
+      },
+      "eth_getProof": {
+        "available": true,
+        "required": false,
+        "sample": "{'address': '0x0000000000000000000000000000000000000001', 'accountProof': ['0xf90211a09776..."
+      }
+    }
+  }
+}

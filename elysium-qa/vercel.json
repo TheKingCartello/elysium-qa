@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "functions": {
+    "api/refresh.py": {
+      "maxDuration": 60,
+      "includeFiles": "{elysium_qa/**,config/**}"
+    }
+  }
+}

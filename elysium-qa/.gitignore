@@ -1,0 +1,19 @@
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# secrets -- never commit these
+.env
+.env.*
+*.key
+
+# os / editor
+.DS_Store
+.idea/
+.vscode/
+
+# local per-run output (keep out/report.* and index.html, they are the artifact)
+out/*.tmp
+.vercel

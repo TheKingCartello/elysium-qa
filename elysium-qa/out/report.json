@@ -1,0 +1,927 @@
+{
+  "generated_at": "2026-10-25T12:40:06+00:00",
+  "network": {
+    "name": "Elysium Testnet",
+    "chain_id": 99801,
+    "rpc": "https://testnet-rpc.elysium.kinetiq.xyz",
+    "explorer": "https://elysium.kinetiq.xyz/testnet-explorer",
+    "faucet": "https://elysium.kinetiq.xyz/testnet-faucet",
+    "parent_chain": "HyperEVM testnet (998)",
+    "gas_token": "HYPE"
+  },
+  "chain": {
+    "endpoint": "https://testnet-rpc.elysium.kinetiq.xyz",
+    "ok": true,
+    "fatal": null,
+    "score": 98.1,
+    "checks": [
+      {
+        "name": "rpc reachable",
+        "status": "pass",
+        "detail": "head=15621729",
+        "weight": 10
+      },
+      {
+        "name": "chain id",
+        "status": "pass",
+        "detail": "99801",
+        "weight": 15
+      },
+      {
+        "name": "throughput",
+        "status": "pass",
+        "detail": "6.4 blocks/s",
+        "weight": 10
+      },
+      {
+        "name": "gas price readable",
+        "status": "pass",
+        "detail": "0.0000 gwei",
+        "weight": 5
+      },
+      {
+        "name": "usage is real (infra overhead subtracted)",
+        "status": "info",
+        "detail": "110/170 txs are user txs; 35.3% is sequencer/batch overhead",
+        "weight": 0
+      },
+      {
+        "name": "rpc capability: eth_getLogs",
+        "status": "pass",
+        "detail": "[{'address': '0x5f118bf1913c7774bf20f220b44ef595da4bb035', 'topics': ['0xddf252ad1be2c89b6...",
+        "weight": 5
+      },
+      {
+        "name": "rpc capability: eth_feeHistory",
+        "status": "pass",
+        "detail": "{'oldestBlock': '0xee5e5e', 'reward': [['0x0', '0x0'], ['0x0', '0x0'], ['0x0', '0x0'], ['0...",
+        "weight": 5
+      },
+      {
+        "name": "rpc capability: eth_maxPriorityFeePerGas",
+        "status": "pass",
+        "detail": "'0x0'",
+        "weight": 5
+      },
+      {
+        "name": "rpc capability: eth_estimateGas",
+        "status": "pass",
+        "detail": "'0x5f1a'",
+        "weight": 5
+      },
+      {
+        "name": "rpc capability: web3_clientVersion",
+        "status": "pass",
+        "detail": "'nitro/vlocal+unknown-unknown/linux-amd64/go1.25.12'",
+        "weight": 5
+      },
+      {
+        "name": "rpc capability: net_version",
+        "status": "pass",
+        "detail": "'99801'",
+        "weight": 5
+      },
+      {
+        "name": "rpc capability: eth_syncing",
+        "status": "pass",
+        "detail": "False",
+        "weight": 5
+      },
+      {
+        "name": "rpc capability: debug_traceTransaction (optional)",
+        "status": "warn",
+        "detail": "None",
+        "weight": 3
+      },
+      {
+        "name": "rpc capability: eth_getProof (optional)",
+        "status": "pass",
+        "detail": "{'address': '0x0000000000000000000000000000000000000001', 'accountProof': ['0xf90211a09776...",
+        "weight": 3
+      }
+    ],
+    "metrics": {
+      "chain_id": 99801,
+      "blocks_per_sec_measured": 6.39,
+      "blocks_sampled": 52,
+      "gas_price_gwei": 0.0,
+      "sample_span_s": 8,
+      "block_time_s": 0.1356,
+      "timestamp_resolution": "1s (sub-second block time not observable via timestamps)",
+      "auto_detected_system_sender": "0x00000000000000000000000000000000000a4b05",
+      "activity_series": {
+        "user": [
+          1,
+          2,
+          1,
+          1,
+          1,
+          4,
+          1,
+          1,
+          3,
+          1,
+          1,
+          3,
+          1,
+          2,
+          1,
+          2,
+          1,
+          4,
+          2,
+          1,
+          2,
+          3,
+          3,
+          2,
+          5,
+          1,
+          3,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          3,
+          1,
+          1,
+          3,
+          2,
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          2,
+          3,
+          3,
+          2,
+          1,
+          1,
+          3
+        ],
+        "system": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "txs_sampled": 170,
+      "txs_user": 110,
+      "system_overhead_pct": 35.3,
+      "unique_senders_user": 79,
+      "unique_targets_user": 60,
+      "contract_creations_user": 13,
+      "txs_per_s_user": 13.75,
+      "top_user_targets": [
+        {
+          "address": "create",
+          "txs": 13
+        },
+        {
+          "address": "0x000000000000000000000000000000000000006e",
+          "txs": 12
+        },
+        {
+          "address": "0x14ae215bf9d092a954c0dcdc2e1d3c5f92c90056",
+          "txs": 9
+        },
+        {
+          "address": "0xb94a38a4ac46970559e89e566f2486a3fc56be5a",
+          "txs": 7
+        },
+        {
+          "address": "0x752f6816bc514e1eeff852b2eadcd96f6c0f9f3f",
+          "txs": 4
+        },
+        {
+          "address": "0x89659883a9d980925733b0a698f117aab65ac718",
+          "txs": 3
+        },
+        {
+          "address": "0x7255150a0340852fe4b4b5657c5ace6c09a4f959",
+          "txs": 3
+        }
+      ],
+      "rpc": {
+        "endpoint": "https://testnet-rpc.elysium.kinetiq.xyz",
+        "calls": 81,
+        "errors": 8,
+        "error_rate": 0.0988,
+        "latency_p50_ms": 153.7,
+        "latency_p95_ms": 471.6
+      }
+    },
+    "capabilities": {
+      "eth_getLogs": {
+        "available": true,
+        "required": true,
+        "sample": "[{'address': '0x5f118bf1913c7774bf20f220b44ef595da4bb035', 'topics': ['0xddf252ad1be2c89b6..."
+      },
+      "eth_feeHistory": {
+        "available": true,
+        "required": true,
+        "sample": "{'oldestBlock': '0xee5e5e', 'reward': [['0x0', '0x0'], ['0x0', '0x0'], ['0x0', '0x0'], ['0..."
+      },
+      "eth_maxPriorityFeePerGas": {
+        "available": true,
+        "required": true,
+        "sample": "'0x0'"
+      },
+      "eth_estimateGas": {
+        "available": true,
+        "required": true,
+        "sample": "'0x5f1a'"
+      },
+      "web3_clientVersion": {
+        "available": true,
+        "required": true,
+        "sample": "'nitro/vlocal+unknown-unknown/linux-amd64/go1.25.12'"
+      },
+      "net_version": {
+        "available": true,
+        "required": true,
+        "sample": "'99801'"
+      },
+      "eth_syncing": {
+        "available": true,
+        "required": true,
+        "sample": "False"
+      },
+      "debug_traceTransaction": {
+        "available": false,
+        "required": false,
+        "sample": "None"
+      },
+      "eth_getProof": {
+        "available": true,
+        "required": false,
+        "sample": "{'address': '0x0000000000000000000000000000000000000001', 'accountProof': ['0xf90211a09776..."
+      }
+    }
+  },
+  "ecosystem_score": 60.8,
+  "projects_total": 28,
+  "projects_probed": 12,
+  "coverage_pct": 42.9,
+  "projects_testable": 5,
+  "projects_untestable": 16,
+  "untestable_names": [
+    "Aegis Hedge",
+    "Dexda Costa",
+    "Eloscape",
+    "Elypact",
+    "Elyra",
+    "Elysa",
+    "Elysium Names",
+    "Montra",
+    "Nest",
+    "Neurii",
+    "Pantheon Index",
+    "PerpMe",
+    "Signal",
+    "Speculate",
+    "StockFlow",
+    "Temporal Finance"
+  ],
+  "projects": [
+    {
+      "name": "Atlas",
+      "handle": "@AtlasHL",
+      "category": "NFT",
+      "priority": "P2",
+      "tested": true,
+      "basis": "web",
+      "score": 100.0,
+      "verdict": "live-app",
+      "web_score": 100.0,
+      "url": "https://atlashl.xyz",
+      "url_confidence": "confirmed",
+      "contract": "not configured",
+      "address": null,
+      "notes": []
+    },
+    {
+      "name": "FrogFlip",
+      "handle": "@FrogFlip",
+      "category": "Games",
+      "priority": "P3",
+      "tested": true,
+      "basis": "web",
+      "score": 100.0,
+      "verdict": "live-app",
+      "web_score": 100.0,
+      "url": "https://frogflip.xyz",
+      "url_confidence": "confirmed",
+      "contract": "not configured",
+      "address": null,
+      "notes": []
+    },
+    {
+      "name": "HyperFlip",
+      "handle": "@hyperflip_xyz",
+      "category": "Perps",
+      "priority": "P2",
+      "tested": true,
+      "basis": "web",
+      "score": 100.0,
+      "verdict": "live-app",
+      "web_score": 100.0,
+      "url": "https://hyperflip.xyz",
+      "url_confidence": "confirmed",
+      "contract": "not configured",
+      "address": null,
+      "notes": []
+    },
+    {
+      "name": "HyperFlow",
+      "handle": "@HyperFlow_fun",
+      "category": "DEX",
+      "priority": "P2",
+      "tested": true,
+      "basis": "web",
+      "score": 100.0,
+      "verdict": "live-app",
+      "web_score": 100.0,
+      "url": "https://hyperflow.fun",
+      "url_confidence": "confirmed",
+      "contract": "not configured",
+      "address": null,
+      "notes": []
+    },
+    {
+      "name": "Oxley",
+      "handle": "@oxleydotfun",
+      "category": "Launchpad",
+      "priority": "P1",
+      "tested": true,
+      "basis": "web",
+      "score": 100.0,
+      "verdict": "live-app",
+      "web_score": 100.0,
+      "url": "https://oxley.fun",
+      "url_confidence": "confirmed",
+      "contract": "not configured",
+      "address": null,
+      "notes": []
+    },
+    {
+      "name": "Hybra Finance",
+      "handle": "@HybraFinance",
+      "category": "Liquidity",
+      "priority": "P1",
+      "tested": true,
+      "basis": "web",
+      "score": 45.0,
+      "verdict": "landing-only",
+      "web_score": 45.0,
+      "url": "https://hybra.finance",
+      "url_confidence": "confirmed",
+      "contract": "not configured",
+      "address": null,
+      "notes": [
+        "frontend: landing-only"
+      ]
+    },
+    {
+      "name": "Liquid Terminal",
+      "handle": "@LiquidTerminal",
+      "category": "Tools",
+      "priority": "P1",
+      "tested": true,
+      "basis": "web",
+      "score": 45.0,
+      "verdict": "landing-only",
+      "web_score": 45.0,
+      "url": "https://liquidterminal.xyz",
+      "url_confidence": "confirmed",
+      "contract": "not configured",
+      "address": null,
+      "notes": [
+        "frontend: landing-only"
+      ]
+    },
+    {
+      "name": "Pindar",
+      "handle": "@Pindar_finance",
+      "category": "Derivatives",
+      "priority": "P1",
+      "tested": true,
+      "basis": "web",
+      "score": 45.0,
+      "verdict": "landing-only",
+      "web_score": 45.0,
+      "url": "https://pindar.finance",
+      "url_confidence": "confirmed",
+      "contract": "not configured",
+      "address": null,
+      "notes": [
+        "frontend: landing-only"
+      ]
+    },
+    {
+      "name": "Chainzy",
+      "handle": "@ChainzyLabs",
+      "category": "Launchpad",
+      "priority": "P2",
+      "tested": true,
+      "basis": "web",
+      "score": 25.0,
+      "verdict": "coming-soon",
+      "web_score": 25.0,
+      "url": "https://chainzy.xyz",
+      "url_confidence": "likely",
+      "contract": "not configured",
+      "address": null,
+      "notes": [
+        "frontend: coming-soon"
+      ]
+    },
+    {
+      "name": "CorePad",
+      "handle": "@CorePad_hl",
+      "category": "Launchpad",
+      "priority": "P1",
+      "tested": true,
+      "basis": "web",
+      "score": 25.0,
+      "verdict": "coming-soon",
+      "web_score": 25.0,
+      "url": "https://corepad.xyz",
+      "url_confidence": "likely",
+      "contract": "not configured",
+      "address": null,
+      "notes": [
+        "frontend: coming-soon"
+      ]
+    },
+    {
+      "name": "Kalos",
+      "handle": "@kalosfun",
+      "category": "NFT/DEX",
+      "priority": "P2",
+      "tested": true,
+      "basis": "web",
+      "score": 25.0,
+      "verdict": "coming-soon",
+      "web_score": 25.0,
+      "url": "https://kalos.fun",
+      "url_confidence": "confirmed",
+      "contract": "not configured",
+      "address": null,
+      "notes": [
+        "frontend: coming-soon"
+      ]
+    },
+    {
+      "name": "Ascend",
+      "handle": "@AscendLaunch",
+      "category": "Launchpad",
+      "priority": "P0",
+      "tested": true,
+      "basis": "web",
+      "score": 20.0,
+      "verdict": "gated",
+      "web_score": 20.0,
+      "url": "https://ascendlaunch.xyz",
+      "url_confidence": "confirmed",
+      "contract": "not configured",
+      "address": null,
+      "notes": [
+        "frontend: gated"
+      ]
+    },
+    {
+      "name": "Aegis Hedge",
+      "handle": "@aegis_hedge",
+      "category": "DeFi",
+      "priority": "P1",
+      "tested": false,
+      "basis": "none",
+      "score": null,
+      "verdict": "url unknown",
+      "web_score": null,
+      "url": "",
+      "url_confidence": "none",
+      "contract": "not configured",
+      "address": null,
+      "notes": [
+        "frontend not tested (no verifiable public URL)"
+      ]
+    },
+    {
+      "name": "Dexda Costa",
+      "handle": "@dexdacosta",
+      "category": "DEX",
+      "priority": "P1",
+      "tested": false,
+      "basis": "none",
+      "score": null,
+      "verdict": "url unknown",
+      "web_score": null,
+      "url": "",
+      "url_confidence": "none",
+      "contract": "not configured",
+      "address": null,
+      "notes": [
+        "frontend not tested (no verifiable public URL)"
+      ]
+    },
+    {
+      "name": "Eloscape",
+      "handle": "@eloscapeHQ",
+      "category": "GameFi",
+      "priority": "P2",
+      "tested": false,
+      "basis": "none",
+      "score": null,
+      "verdict": "url unknown",
+      "web_score": null,
+      "url": "",
+      "url_confidence": "none",
+      "contract": "not configured",
+      "address": null,
+      "notes": [
+        "frontend not tested (no verifiable public URL)"
+      ]
+    },
+    {
+      "name": "Elypact",
+      "handle": "@Elypact",
+      "category": "DeFi",
+      "priority": "P2",
+      "tested": false,
+      "basis": "none",
+      "score": null,
+      "verdict": "url unknown",
+      "web_score": null,
+      "url": "",
+      "url_confidence": "none",
+      "contract": "not configured",
+      "address": null,
+      "notes": [
+        "frontend not tested (no verifiable public URL)"
+      ]
+    },
+    {
+      "name": "Elyra",
+      "handle": "@Elyra",
+      "category": "Lending",
+      "priority": "P1",
+      "tested": false,
+      "basis": "none",
+      "score": null,
+      "verdict": "url unknown",
+      "web_score": null,
+      "url": "",
+      "url_confidence": "none",
+      "contract": "not configured",
+      "address": null,
+      "notes": [
+        "frontend not tested (no verifiable public URL)"
+      ]
+    },
+    {
+      "name": "Elysa",
+      "handle": "@playelysa",
+      "category": "Games",
+      "priority": "P3",
+      "tested": false,
+      "basis": "none",
+      "score": null,
+      "verdict": "url unknown",
+      "web_score": null,
+      "url": "",
+      "url_confidence": "none",
+      "contract": "not configured",
+      "address": null,
+      "notes": [
+        "frontend not tested (no verifiable public URL)"
+      ]
+    },
+    {
+      "name": "Elysium Names",
+      "handle": "@ElysiumNames",
+      "category": "Tools",
+      "priority": "P2",
+      "tested": false,
+      "basis": "none",
+      "score": null,
+      "verdict": "url unknown",
+      "web_score": null,
+      "url": "",
+      "url_confidence": "none",
+      "contract": "not configured",
+      "address": null,
+      "notes": [
+        "frontend not tested (no verifiable public URL)"
+      ]
+    },
+    {
+      "name": "Montra",
+      "handle": "@MontraXYZ",
+      "category": "Launchpad",
+      "priority": "P1",
+      "tested": false,
+      "basis": "none",
+      "score": null,
+      "verdict": "url unknown",
+      "web_score": null,
+      "url": "",
+      "url_confidence": "none",
+      "contract": "not configured",
+      "address": null,
+      "notes": [
+        "frontend not tested (no verifiable public URL)"
+      ]
+    },
+    {
+      "name": "Nest",
+      "handle": "@NestExchange",
+      "category": "DEX/ve(3,3)",
+      "priority": "P0",
+      "tested": false,
+      "basis": "none",
+      "score": null,
+      "verdict": "url unknown",
+      "web_score": null,
+      "url": "",
+      "url_confidence": "none",
+      "contract": "not configured",
+      "address": null,
+      "notes": [
+        "frontend not tested (no verifiable public URL)"
+      ]
+    },
+    {
+      "name": "Neurii",
+      "handle": "@Neuriiio",
+      "category": "Launchpad",
+      "priority": "P2",
+      "tested": false,
+      "basis": "none",
+      "score": null,
+      "verdict": "url unknown",
+      "web_score": null,
+      "url": "",
+      "url_confidence": "none",
+      "contract": "not configured",
+      "address": null,
+      "notes": [
+        "frontend not tested (no verifiable public URL)"
+      ]
+    },
+    {
+      "name": "Pantheon Index",
+      "handle": "@Pantheonindex",
+      "category": "Index",
+      "priority": "P1",
+      "tested": false,
+      "basis": "none",
+      "score": null,
+      "verdict": "url unknown",
+      "web_score": null,
+      "url": "",
+      "url_confidence": "none",
+      "contract": "not configured",
+      "address": null,
+      "notes": [
+        "frontend not tested (no verifiable public URL)"
+      ]
+    },
+    {
+      "name": "PerpMe",
+      "handle": "@perpmefun",
+      "category": "Launchpad",
+      "priority": "P2",
+      "tested": false,
+      "basis": "none",
+      "score": null,
+      "verdict": "url unknown",
+      "web_score": null,
+      "url": "",
+      "url_confidence": "none",
+      "contract": "not configured",
+      "address": null,
+      "notes": [
+        "frontend not tested (no verifiable public URL)"
+      ]
+    },
+    {
+      "name": "Signal",
+      "handle": "@SignalFam",
+      "category": "Launchpad",
+      "priority": "P1",
+      "tested": false,
+      "basis": "none",
+      "score": null,
+      "verdict": "url unknown",
+      "web_score": null,
+      "url": "",
+      "url_confidence": "none",
+      "contract": "not configured",
+      "address": null,
+      "notes": [
+        "frontend not tested (no verifiable public URL)"
+      ]
+    },
+    {
+      "name": "Speculate",
+      "handle": "@speculatezyx",
+      "category": "Prediction",
+      "priority": "P0",
+      "tested": false,
+      "basis": "none",
+      "score": null,
+      "verdict": "url unknown",
+      "web_score": null,
+      "url": "",
+      "url_confidence": "none",
+      "contract": "not configured",
+      "address": null,
+      "notes": [
+        "frontend not tested (no verifiable public URL)"
+      ]
+    },
+    {
+      "name": "StockFlow",
+      "handle": "@StockFlow",
+      "category": "RWA",
+      "priority": "P1",
+      "tested": false,
+      "basis": "none",
+      "score": null,
+      "verdict": "url unknown",
+      "web_score": null,
+      "url": "",
+      "url_confidence": "none",
+      "contract": "not configured",
+      "address": null,
+      "notes": [
+        "frontend not tested (no verifiable public URL)"
+      ]
+    },
+    {
+      "name": "Temporal Finance",
+      "handle": "@TemporalFinance",
+      "category": "Options",
+      "priority": "P1",
+      "tested": false,
+      "basis": "none",
+      "score": null,
+      "verdict": "url unknown",
+      "web_score": null,
+      "url": "",
+      "url_confidence": "none",
+      "contract": "not configured",
+      "address": null,
+      "notes": [
+        "frontend not tested (no verifiable public URL)"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "project": "_infra",
+      "name": "WHYPE interface smoke test (view calls only)",
+      "mode": "dry-run",
+      "score": 100.0,
+      "total_cost_hype": 0.0,
+      "error": null,
+      "steps": [
+        {
+          "name": "balanceOf(qa wallet)",
+          "to": "0xCD57F65c2B0e5881CFC2E609F7CD53b746E1F234",
+          "status": "pass",
+          "detail": "dry-run: gas 31353, cost ~0.000003 HYPE, value 0.000000 HYPE",
+          "tx_hash": null,
+          "gas_used": null,
+          "cost_hype": 3.1353e-06,
+          "latency_ms": null,
+          "simulated": "ok"
+        },
+        {
+          "name": "totalSupply",
+          "to": "0xCD57F65c2B0e5881CFC2E609F7CD53b746E1F234",
+          "status": "pass",
+          "detail": "dry-run: gas 30908, cost ~0.000003 HYPE, value 0.000000 HYPE",
+          "tx_hash": null,
+          "gas_used": null,
+          "cost_hype": 3.09110908e-06,
+          "latency_ms": null,
+          "simulated": "ok"
+        },
+        {
+          "name": "decimals",
+          "to": "0xCD57F65c2B0e5881CFC2E609F7CD53b746E1F234",
+          "status": "pass",
+          "detail": "dry-run: gas 30871, cost ~0.000003 HYPE, value 0.000000 HYPE",
+          "tx_hash": null,
+          "gas_used": null,
+          "cost_hype": 3.08987839e-06,
+          "latency_ms": null,
+          "simulated": "ok"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "sev": "low",
+      "text": "Optional RPC methods unavailable (limits app debugging, not users): debug_traceTransaction"
+    },
+    {
+      "sev": "med",
+      "text": "35.3% of transactions are sequencer/batch overhead, not user activity -- public 'tx count' claims should be read net of this."
+    },
+    {
+      "sev": "med",
+      "text": "Only 79 distinct real senders and 13 contract deployments in the sampled window."
+    },
+    {
+      "sev": "high",
+      "text": "16/28 projects have no public frontend that could be verified: Aegis Hedge, Dexda Costa, Eloscape, Elypact, Elyra, Elysa, Elysium Names, Montra, Nest, Neurii. This is a testability gap -- an outside tester cannot reach them either."
+    },
+    {
+      "sev": "med",
+      "text": "1 project(s) reject anonymous visitors (gated / bot-protected): Ascend"
+    },
+    {
+      "sev": "low",
+      "text": "3 still serve pre-launch pages: Chainzy, CorePad, Kalos"
+    },
+    {
+      "sev": "good",
+      "text": "5 project(s) served a working app surface to an anonymous visitor: Atlas, FrogFlip, HyperFlip, HyperFlow, Oxley"
+    }
+  ]
+}

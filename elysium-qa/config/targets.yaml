@@ -1,0 +1,328 @@
+# ---------------------------------------------------------------------------
+# Elysium ecosystem test surface
+# Populated 25 Oct 2026 from: Kinetiq ecosystem page, project domains verified
+# by anonymous HTTP probe, chain 99801 RPC.
+#
+# HOW TO EXTEND (this is the whole point of the file):
+#   1. under a project, add `contracts:` entries once the team publishes an
+#      address book (or you read them off the app's own network tab)
+#   2. add a `scenarios:` block to replay a full lifecycle as a regression test
+# Anything left blank is itself a finding -- "no published address" is the
+# reason nobody can test them before mainnet.
+# ---------------------------------------------------------------------------
+
+network:
+  name: Elysium Testnet
+  chain_id: 99801
+  rpc: https://testnet-rpc.elysium.kinetiq.xyz
+  explorer: https://elysium.kinetiq.xyz/testnet-explorer
+  faucet: https://elysium.kinetiq.xyz/testnet-faucet
+  parent_chain: "HyperEVM testnet (998)"
+  gas_token: HYPE
+
+sample_blocks: 60
+blocktime_window_s: 8
+
+# chain-level / infrastructure deployments (verified on-chain)
+contracts:
+  - project: _infra
+    label: WHYPE (bridged gas token)
+    address: "0xCD57F65c2B0e5881CFC2E609F7CD53b746E1F234"
+  - project: _infra
+    label: Multicall3
+    address: "0xcA11bde05977b3631167028862bE2a173976CA11"
+
+# url_confidence: confirmed = we matched the page to the project · likely = resolves
+# but generic · none = no verifiable public frontend. Anything not 'confirmed' is
+# NEVER scored as a project failure -- that would be our recon gap, not their bug.
+projects:
+  - name: Ascend
+    handle: "@AscendLaunch"
+    category: Launchpad
+    url: "https://ascendlaunch.xyz"
+    url_confidence: confirmed
+    priority: P0
+    note: "HTTP 401 to anonymous visitors; flagged PRIVATE ACCESS"
+    contracts: []
+
+  - name: Oxley
+    handle: "@oxleydotfun"
+    category: Launchpad
+    url: "https://oxley.fun"
+    url_confidence: confirmed
+    priority: P1
+    contracts: []
+
+  - name: Signal
+    handle: "@SignalFam"
+    category: Launchpad
+    url: ""
+    url_confidence: none
+    priority: P1
+    contracts: []
+
+  - name: CorePad
+    handle: "@CorePad_hl"
+    category: Launchpad
+    url: "https://corepad.xyz"
+    url_confidence: likely
+    priority: P1
+    contracts: []
+
+  - name: PerpMe
+    handle: "@perpmefun"
+    category: Launchpad
+    url: ""
+    url_confidence: none
+    priority: P2
+    contracts: []
+
+  - name: Neurii
+    handle: "@Neuriiio"
+    category: Launchpad
+    url: ""
+    url_confidence: none
+    priority: P2
+    contracts: []
+
+  - name: Chainzy
+    handle: "@ChainzyLabs"
+    category: Launchpad
+    url: "https://chainzy.xyz"
+    url_confidence: likely
+    priority: P2
+    contracts: []
+
+  - name: Montra
+    handle: "@MontraXYZ"
+    category: Launchpad
+    url: ""
+    url_confidence: none
+    priority: P1
+    contracts: []
+
+  - name: Kalos
+    handle: "@kalosfun"
+    category: NFT/DEX
+    url: "https://kalos.fun"
+    url_confidence: confirmed
+    priority: P2
+    contracts: []
+
+  - name: Atlas
+    handle: "@AtlasHL"
+    category: NFT
+    url: "https://atlashl.xyz"
+    url_confidence: confirmed
+    priority: P2
+    contracts: []
+
+  - name: Dexda Costa
+    handle: "@dexdacosta"
+    category: DEX
+    url: ""
+    url_confidence: none
+    priority: P1
+    contracts: []
+
+  - name: HyperFlow
+    handle: "@HyperFlow_fun"
+    category: DEX
+    url: "https://hyperflow.fun"
+    url_confidence: confirmed
+    priority: P2
+    contracts: []
+
+  - name: Nest
+    handle: "@NestExchange"
+    category: DEX/ve(3,3)
+    url: ""
+    url_confidence: none
+    priority: P0
+    note: "reported live from first mainnet block"
+    contracts: []
+
+  - name: Hybra Finance
+    handle: "@HybraFinance"
+    category: Liquidity
+    url: "https://hybra.finance"
+    url_confidence: confirmed
+    priority: P1
+    contracts: []
+
+  - name: Pindar
+    handle: "@Pindar_finance"
+    category: Derivatives
+    url: "https://pindar.finance"
+    url_confidence: confirmed
+    priority: P1
+    contracts: []
+
+  - name: Temporal Finance
+    handle: "@TemporalFinance"
+    category: Options
+    url: ""
+    url_confidence: none
+    priority: P1
+    contracts: []
+
+  - name: HyperFlip
+    handle: "@hyperflip_xyz"
+    category: Perps
+    url: "https://hyperflip.xyz"
+    url_confidence: confirmed
+    priority: P2
+    note: "HIP-4 combo markets"
+    contracts: []
+
+  - name: Speculate
+    handle: "@speculatezyx"
+    category: Prediction
+    url: ""
+    url_confidence: none
+    priority: P0
+    note: "committed to mainnet day one"
+    contracts: []
+
+  - name: Eloscape
+    handle: "@eloscapeHQ"
+    category: GameFi
+    url: ""
+    url_confidence: none
+    priority: P2
+    contracts: []
+
+  - name: Elysa
+    handle: "@playelysa"
+    category: Games
+    url: ""
+    url_confidence: none
+    priority: P3
+    contracts: []
+
+  - name: FrogFlip
+    handle: "@FrogFlip"
+    category: Games
+    url: "https://frogflip.xyz"
+    url_confidence: confirmed
+    priority: P3
+    contracts: []
+
+  - name: Elypact
+    handle: "@Elypact"
+    category: DeFi
+    url: ""
+    url_confidence: none
+    priority: P2
+    contracts: []
+
+  - name: Aegis Hedge
+    handle: "@aegis_hedge"
+    category: DeFi
+    url: ""
+    url_confidence: none
+    priority: P1
+    contracts: []
+
+  - name: Pantheon Index
+    handle: "@Pantheonindex"
+    category: Index
+    url: ""
+    url_confidence: none
+    priority: P1
+    contracts: []
+
+  - name: Liquid Terminal
+    handle: "@LiquidTerminal"
+    category: Tools
+    url: "https://liquidterminal.xyz"
+    url_confidence: confirmed
+    priority: P1
+    contracts: []
+
+  - name: Elysium Names
+    handle: "@ElysiumNames"
+    category: Tools
+    url: ""
+    url_confidence: none
+    priority: P2
+    contracts: []
+
+  - name: StockFlow
+    handle: "@StockFlow"
+    category: RWA
+    url: ""
+    url_confidence: none
+    priority: P1
+    contracts: []
+
+  - name: Elyra
+    handle: "@Elyra"
+    category: Lending
+    url: ""
+    url_confidence: none
+    priority: P1
+    contracts: []
+
+# ---------------------------------------------------------------------------
+# Lifecycle scenarios. Record each step once from the app's network tab, then
+# the harness replays it forever as a regression test.
+#
+#   - project: Ascend
+#     name: launch -> curve -> graduate -> trade
+#     steps:
+#       - note: create token
+#         to: "0x…"
+#         data: "0x…"
+#         value_hype: 0
+#       - note: buy on bonding curve
+#         to: "0x…"
+#         data: "0x…"
+# ---------------------------------------------------------------------------
+scenarios:
+  # Safe, zero-risk demo of the ABI + execution pipeline: view calls against
+  # WHYPE. Proves signature -> calldata -> eth_call/estimateGas works, and costs
+  # nothing even with --execute.
+  - project: _infra
+    name: "WHYPE interface smoke test (view calls only)"
+    steps:
+      - note: balanceOf(qa wallet)
+        to: "0xCD57F65c2B0e5881CFC2E609F7CD53b746E1F234"
+        function: "balanceOf(address)"
+        args: ["0x0000000000000000000000000000000000000001"]
+      - note: totalSupply
+        to: "0xCD57F65c2B0e5881CFC2E609F7CD53b746E1F234"
+        function: "totalSupply()"
+        args: []
+      - note: decimals
+        to: "0xCD57F65c2B0e5881CFC2E609F7CD53b746E1F234"
+        function: "decimals()"
+        args: []
+
+  # TEMPLATE for a real launchpad lifecycle. Fill `to:` with the router/launchpad
+  # address (from the team, or the app's network tab) and the signatures from
+  # their ABI. Then every run is a regression test:
+  #
+  #  - project: Ascend
+  #    name: "launch -> curve -> graduate -> trade"
+  #    steps:
+  #      - note: create token
+  #        to: "0xROUTER"
+  #        function: "createToken(string,string,uint256)"
+  #        args: ["QA Test", "QAT", 1000000000000000000]
+  #        value_hype: 0
+  #      - note: buy on bonding curve
+  #        to: "0xROUTER"
+  #        function: "buy(address,uint256)"
+  #        args: ["0xTOKEN", 1000000000000000]
+  #        value_hype: 0.001
+  #      - note: sell back (assert the exit path works, not just entry)
+  #        to: "0xROUTER"
+  #        function: "sell(address,uint256)"
+  #        args: ["0xTOKEN", 1000000000000000]
+  #      - note: unapproved caller must be rejected
+  #        to: "0xROUTER"
+  #        function: "pause()"
+  #        args: []
+  #        expect: revert
+
